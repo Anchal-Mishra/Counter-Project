@@ -19,6 +19,7 @@ function Counter(){
   }
   return (
     <div className="bg-red-100 flex justify-center items-center h-screen ">
+    <h1>Counter Project</h1>
       <h1 className=" border-4 rounded-2xl text-red-950 font-bold text-xl p-2 mx-4  bg-white text-center w-[100px]">{value}</h1>
       <button className="border-4 rounded-2xl text-red-950 font-bold text-xl p-2 mx-4" onClick={increment}>Increment</button>
       <button className="border-4 rounded-2xl text-red-950 font-bold text-xl p-2 mx-4" onClick={decrement}>Decrement</button>
